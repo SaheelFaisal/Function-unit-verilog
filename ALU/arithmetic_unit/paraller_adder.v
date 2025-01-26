@@ -7,7 +7,7 @@ module paraller_adder(
     input [31:0] A,
     input [31:0] Y,
     input Cin,
-    output G
+    output [31:0] G
     );
 
     assign G = A + Y + Cin;
