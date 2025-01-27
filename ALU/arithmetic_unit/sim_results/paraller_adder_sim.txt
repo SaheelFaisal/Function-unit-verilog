@@ -1,4 +1,4 @@
-Time	A			Y		Cin		G		Cout
+Time	A		Y		Cin	G		Cout
 0	00000000	00000000	0	00000000	0
 10	ffffffff	00000001	0	00000000	1
 20	7fffffff	00000001	1	80000001	0
