@@ -23,7 +23,7 @@ module parallel_adder_tb;
     // Testbench logic
     initial begin
         // Display results
-        $display("Time\tA\t\t\tY\t\tCin\t\tG\t\tCout");
+        $display("Time\tA\t\tY\t\tCin\tG\t\tCout");
         $monitor("%0d\t%h\t%h\t%b\t%h\t%b", $time, A, Y, Cin, G, Cout);
 
         // Test case 1: Add zero + zero
