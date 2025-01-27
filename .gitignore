@@ -4,4 +4,5 @@ build/
 *.bin
 *.hex
 *.out
-
+*.vvp
+*.vcd
