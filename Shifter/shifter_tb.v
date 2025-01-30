@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module shifter_tb;
     reg [31:0] B;
     reg [1:0] Hselect;
@@ -15,8 +17,7 @@ module shifter_tb;
         // Wait for global reset
         #10;
         
-        $monitor("Hselect=%b | B=%b | H=%b", Hselect, B, H);
-        B = 32'h80000000; // -2147483648 (Signed)
+        B = 32'h80000000;
         
         Hselect = 2'b00; #10;
         Hselect = 2'b01; #10;
