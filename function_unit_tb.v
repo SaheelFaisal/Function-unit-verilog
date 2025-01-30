@@ -57,27 +57,6 @@ module function_unit_tb;
             #10;
         end
 
-        // // Test ALU operations (FS[4] = 0, selects G)
-        // FS = 5'b00000; #10;  // G = A (Transfer A)
-        // FS = 5'b00001; #10;  // G = A + 1 (Increment A)
-        // FS = 5'b00010; #10;  // G = A + B (Addition)
-        // FS = 5'b00011; #10;  // G = A + B + 1 (Addition with carry)
-        // FS = 5'b00100; #10;  // G = A + ~B (A plus 1's complement of B)
-        // FS = 5'b00101; #10;  // G = A - B (Subtraction)
-        // FS = 5'b00110; #10;  // G = A - 1 (Decrement A)
-        // FS = 5'b00111; #10;  // G = A (Transfer A)
-
-        // // Test Logic Unit operations
-        // FS = 5'b01000; #10;  // G = A & B (AND)
-        // FS = 5'b01001; #10;  // G = A | B (OR)
-        // FS = 5'b01010; #10;  // G = A ^ B (XOR)
-        // FS = 5'b01011; #10;  // G = ~A (NOT)
-
-        // // Test Shifter operations (FS[4] = 1, selects H)
-        // FS = 5'b10000; #10;  // H = B (No shift)
-        // FS = 5'b10001; #10;  // H = B << 1 (Logical left shift)
-        // FS = 5'b10010; #10;  // H = B >> 1 (Logical right shift)
-
         // Finish Simulation
         $finish;
     end
