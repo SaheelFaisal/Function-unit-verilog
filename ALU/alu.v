@@ -17,6 +17,8 @@ module alu (
 
 
     always @(*) begin
+        C = 0;
+        V = 0;
         case (S2)
             1'b0: // Arithmetic unit
             begin

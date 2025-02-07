@@ -9,5 +9,3 @@ This code is intended for learning purposes and personal use only. Please do not
 - ALU supporting 15 different arithmetic and logical operations
 - Shifter with left shift, right shift, pass through
 
-## Notes
-This repository is private to ensure academic integrity.
